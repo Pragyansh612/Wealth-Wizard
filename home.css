@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+nav {
+    background-color: skyblue;
+}
+ul li {
+    display: inline-flex;
+    list-style: none;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+.icon{
+    font-size: 30px;
+    margin: 10px 500px 30px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.cont{
+    margin: 10px;
+}
+h1{
+    font-weight: bolder;
+    position: relative;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+.image{
+    border-radius: 100px;
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+p{
+    margin: 20px;
+}
+.material-symbols-outlined{
+    position: relative;
+    top: 5px;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    margin: 30px;
+}
+.im{
+    display: inline-flex;
+    position: relative;
+}
+.im2{
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+.h2{
+    position: absolute;
+    color: black;
+    top: 115px;
+    left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.log{
+    position: relative;
+    margin: 20px;
+    left: 20px;
+    top: 50px;
+    text-align: center;
+}
+h2{
+    font-size: xxx-large;
+}
+.box{
+    margin: 30px;
+    padding: 20px;
+}
+h3{
+    font-size: x-large;
+}
+#text1{
+    margin: 10px;
+    top: 50px;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.con{
+    display: inline-flex;
+}
+#new{
+    margin: 5px;
+    font-size: large;
+    font-family: cursive;
+}
+#sign{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn {
+    border-radius: 40px;
+    margin: 20px;
+    padding: 10px;
+    background-color: skyblue;
+}
+#f1 {
+    position: relative;
+    left: 10px;
+}
+footer{
+    background-color: rgba(143, 63, 204, 0.886);
+    height: 50px;
+    text-align: center;
+}
+.foot{
+    height: 50px;
+    color: white;
+    font-family: cursive;
+    font-size: large;
+}

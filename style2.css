@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+nav {
+    background-color: skyblue;
+}
+ul li {
+    display: inline-flex;
+    list-style: none;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+.icon{
+    font-size: 30px;
+    margin: 10px 500px 30px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.material-symbols-outlined{
+    position: relative;
+    top: 5px;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    margin: 30px;
+}
+.im{
+    display: inline-flex;
+    position: relative;
+}
+.im2{
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+.h2{
+    position: absolute;
+    color: black;
+    top: 110px;
+    left: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.log{
+    position: relative;
+    margin: 20px;
+    left: 20px;
+    top: 50px;
+    text-align: center;
+}
+h2{
+    font-size: xxx-large;
+}
+.box{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: inline-block;
+}
+.h3{
+    font-size: large;
+}
+.text{
+    margin: 10px;
+    top: 50px;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+#btn{
+    border-radius: 40px;
+    padding: 10px;
+    top: 10px;
+    position: relative;
+    left: 0px;
+    background-color: skyblue;
+}
+footer{
+    position: relative;
+    top: 50px;
+    background-color: rgba(143, 63, 204, 0.886);
+    height: 50px;
+    text-align: center;
+}
+.foot{
+    height: 50px;
+    color: white;
+    font-family: cursive;
+    font-size: large;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
